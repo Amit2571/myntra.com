@@ -1,0 +1,102 @@
+html, body{
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.left img {
+   height: 60px;
+   width: 120px;
+
+}
+
+header{
+    box-shadow: rgba(245, 1, 184, 0.925) 0px 5px 0px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(252, 252, 252);
+}
+
+.container{
+    
+    padding: 0px 10vw;
+    height: auto;
+   
+    
+    
+}
+
+nav{
+    padding-top: 15px;
+}
+
+nav ul li{
+
+        list-style: none;
+        padding: 0 12px;
+        
+
+}
+
+.section1{
+    background-color: rgb(245, 240, 240) ;
+    
+    
+}
+.right input{
+    width: 20vw;
+}
+
+.homeimg {
+    margin: 10px 0px;
+
+    width: 85vw;
+}
+
+.itemimg{
+    
+    width: 11vw;
+    margin: 30px 14px;
+}
+
+
+
+footer{
+    height:fit-content;
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(12, 13, 14) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}
+
+.rightbox{
+    display: flex;
+    margin: 12px;
+  } 
+
+  .zoom {
+
+    
+    transition: transform .2s; /* Animation */
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+  nav ul li:hover{
+
+    
+    border: 5px  #f86cc9;
+	color: #f574bb;
+	background: rgba(0,0,0,0);
+  }
+
+  
+
+ 

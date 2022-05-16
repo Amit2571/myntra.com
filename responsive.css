@@ -1,0 +1,36 @@
+@media  (max-width: 1220px) {
+    
+  header{
+      
+      height: 130px;
+  }
+ nav{
+
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ .right{
+     flex-direction: column;
+    
+}
+  .rightbox{
+    display: flex;
+    margin: 12px;
+  } 
+  
+  nav ul li{
+
+    list-style: none;
+    padding: 0 4px;
+    font-size: 10px;
+      
+  }
+
+  .container{
+      padding: 0 2vw;
+  }
+
+
+}
